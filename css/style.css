@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+P{
+    font-size: 3em;
+    text-align: center;
+}
+:root {
+    --cor-primaria: black;
+}
+body{
+    background-color: var(--cor-primaria);
+    color: white;
+    margin-top: 20px;
+    background-image: url(../html/hpmem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2:hover{
+    background-color: red;
+}
+/*modifica a primeira letra*/
+h2::first-letter{
+    color: red;
+}
+img{
+    margin-left: 30px;
+}
+table{
+    border: 1px solid white;
+    color: white;
+    width: 400px;
+    margin-left: 40px ;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+ul{
+    border: 1px solid white;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 30px;
+}
+ol{
+    border: 1px solid white;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 30px;
+}
