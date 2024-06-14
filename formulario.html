@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="" enctype="multipart/form-data">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="nome" maxlength="60" required  >
+           
+
+            <label for="idade">Idade</label>
+            <input type="text" name="idade" id="idade" value="16">
+
+            <label for="num">Numero</label>
+            <input type="number" name="numero" id="num">
+
+            <label for="email">Email</label>
+            <input type="email" name="mail" id="email">
+
+            <label for="pesquisa">Pesquisa</label>
+            <input type="search" name="pes" id="pesquisa">
+
+            <fieldset>
+                <legend>Qual sua linguagem fovorita ?</legend>
+
+                <input type="radio" name="lang" id="html" value="html">
+                <label for="html">HTML</label>
+                
+                <input type="radio" name="lang" id="CSS"  value="css">
+                <label for="css">CSS</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Como voce chega no Senac</legend>
+
+                <input type="checkbox" name="tranporte[]" id="onibus" value="onibus">
+                <label for="onibus">onibus</label>
+
+                <input type="checkbox" name="tranporte[]" id="onibus" value="pe">
+                <label for="pe">A pé</label>
+            </fieldset>
+
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="date" id="data">
+          
+            <label for="file">Foto de perfil</label>
+            <input type="file" name="ifile" id="file" accept="image/*">
+
+            <input type="hidden" name="id" value="200" >
+            
+            <select name="" id=""> <!--menu de escolha-->
+                <option value="p">P</option>
+                <option value="m">M</option>
+                <option value="g">G</option>
+            </select>
+
+            <textarea name="descricao" id="descricao" cols="10" rows="10"></textarea> <!--Tamanho da caixa-->
+            <input type="submit" value="enviar">
+        </form>
+    </section>
+</body>
+</html>

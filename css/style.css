@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -21,6 +22,13 @@ body{
 h2:hover{
     background-color: red;
 }
+h1{
+    font-family: "Style Script", cursive;
+    display: flex;
+    align-items: center;
+    
+
+}
 /*modifica a primeira letra*/
 h2::first-letter{
     color: red;
@@ -28,13 +36,11 @@ h2::first-letter{
 img{
     margin-left: 30px;
 }
-table{
+
+table,th,td{
     border: 1px solid white;
-    color: white;
-    width: 400px;
-    margin-left: 40px ;
-    margin-top: 20px;
-    border-radius: 20px;
+    border-collapse: collapse ;
+    padding: 20px;
 }
 ul{
     border: 1px solid white;
@@ -47,4 +53,24 @@ ol{
     margin-top: 20px;
     width: 200px;
     margin-left: 30px;
+}
+.img-redonda{
+    border-radius: 50%;
+    height: 100px;
+    padding-top: 30px;
+    width: 100px;
+    
+}
+.caixa-flex{
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caixa{
+    background-color: blueviolet;
+    height: 70px;
+    width: 70px;
 }
